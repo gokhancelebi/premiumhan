@@ -1,0 +1,52 @@
+
+.arama-filtreleri a,.arama-sayfasi a{
+    text-decoration: none;
+
+}
+
+.arama-filtreleri{
+    display: flex;
+    flex-direction: row;
+}
+
+.arama-filtreleri .tumu{
+    padding:3px 10px;
+    border-right: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+.arama-sayfasi{
+    display: flex;
+    flex-direction: column;
+}
+
+.sonuc-basliklari a{
+    color: #fff;
+}
+.sonuc-basliklari{
+    background: #475bff;
+    color: #fff;
+}
+.sonuclar{
+    display: flex;
+    flex-direction: column;
+}
+
+.sonuc-basliklari{
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+    padding:10px;
+}
+.sonuc{
+    display: grid;
+    grid-template-columns: 100px 200px 200px;
+    padding:10px;
+    background:#fff;
+    border-top:1px solid #ccc;
+}
+
+.sonuc-sutun{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
