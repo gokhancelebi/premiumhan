@@ -137,7 +137,7 @@ function filter_the_content_in_the_main_loop($content)
 {
 
 
-    if (is_single() && s_singular() && (get_user_meta(get_current_user_id(), "uyelik_bitis_tarihi", true) == false || time() > get_user_meta(get_current_user_id(), "uyelik_bitis_tarihi", true))) {
+    if (is_single() && is_singular() && (get_user_meta(get_current_user_id(), "uyelik_bitis_tarihi", true) == false || time() > get_user_meta(get_current_user_id(), "uyelik_bitis_tarihi", true))) {
         return "Öncelikle abonelik satın almalısını";
     }
 
